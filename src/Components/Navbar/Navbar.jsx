@@ -16,9 +16,9 @@ export const Navbar = () => {
             <li  onClick={()=>setMenu("Shop")}><Link className='menu-options' to="/">Shop</Link>
             {menu==='Shop'?<hr/>:<></>}</li>
             
-            <li onClick={()=>setMenu("Men")}>
+            <li onClick={()=>setMenu("mens")}>
                 <Link className='menu-options' to="/mens">Men</Link>
-                {menu==='Men'?<hr/>:<></>}
+                {menu==='Mens'?<hr/>:<></>}
             </li>
             <li onClick={()=>setMenu("Women")}>
                 <Link className='menu-options' to="/women">Women</Link>
@@ -30,7 +30,7 @@ export const Navbar = () => {
             </li>
         </ul>
         <div className='nav-login-cart'>
-            <Link to="/login"><button className='login-btn'>Login</button></Link>
+            <Link to="/SignUp"><button className='login-btn'>Login</button></Link>
             <Link to="/cart"><img src={cart_icon} className='nav-cart'></img></Link>
             <div className='nav-login-count'>{totalInCart()}</div>
         </div>

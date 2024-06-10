@@ -37,7 +37,7 @@ export const ShopCategories = (props) => {
           }
       </div>
       <div className='shopcategory-load-more'>
-          Explore More
+          Load More
       </div>
     </div>
   )
