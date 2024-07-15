@@ -1,32 +1,14 @@
-import React from 'react'
-import './Hero.css'
-import hand_icon from '../Assets/hand_icon.png'
-import arrow_icon from '../Assets/arrow.png';
-import hero_image from '../Assets/hero_image.png'
+import React from "react";
+import "./Hero.css";
+
 export const Hero = () => {
   return (
-    <div className='hero'>
-        <div className="hero-left">
-          <h2>New Arrivals Only</h2>
-              <div className="left-part">
-                <div className='hero-hand-icon'>
-                  <p>New</p>
-                  <img  src={hand_icon}/>
-                </div>
-                <p>collections</p>
-                <p>for everyone</p>
-              </div>
-            <div className='hero-latest-btn'>
-              <div>Latest Collections</div>
-              <img src={arrow_icon}/>
-            </div> 
-        </div>
-
-        
-        <div className="hero-right">
-              <img src={hero_image}/> 
-        </div>
+    <div className="hero">
+      <img src="https://digitalscholar.in/wp-content/uploads/2022/09/seo-tips-for-fashion-e-commerce-website.jpg" alt="Fashion E-commerce" />
+      <div className="hero-content">
+       <h1> Shop the Latest Trends at Unbeatable Prices</h1>
+       <p>Step into a world where fashion meets affordability at Bhati Store. Explore our curated collection of the latest trends, meticulously chosen to keep you ahead of the curve</p>
+      </div>
     </div>
-    
-  )
-}
+  );
+};

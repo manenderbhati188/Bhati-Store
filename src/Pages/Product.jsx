@@ -3,7 +3,7 @@ import {ShopContext} from '../Context/ShopContext';
 import { useParams } from 'react-router-dom';
 import {Path} from '../Components/Path of module/Path';
 import { ProductDisplay } from '../Components/ProductDisplay/ProductDisplay';
-import  {RelativeProduct} from '../Components/Relative Products/RelativeProduct'
+import  {RelativeProduct} from '../Components/RelativeProducts/RelativeProduct'
 export const Product = () => {
   const {all_product}=useContext(ShopContext);
   const {ProductId}=useParams();
